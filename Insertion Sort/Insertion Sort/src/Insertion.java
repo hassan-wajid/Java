@@ -11,7 +11,7 @@ public Insertion() {
 	public void insert(int a) { 
 		
          arr[length]=a;
-       //  System.out.println(arr[length]);
+       
         
          int[] temp=new int[arr.length];
          
@@ -42,7 +42,7 @@ public Insertion() {
 	public void getSorted() {
 		insertionSort(arr);
 		
-		//return arr;
+		
 		
 	}
 	public void display() {
